@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="爽印" />
+    <meta property="og:description" content="商品リスト｜爽印" />
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1002439677539778623/1286198906400804914/sawazirushiicon.png?ex=66ed0993&is=66ebb813&hm=c0634019dfa7435630fbe095451958a5d1cbfdd9ed11a2cf4508703593b5bc86&" />
+    <meta property="og:url" content="https://sawazirushi.github.io/sawazirushi/main/index.html" />
+    <title>商品リスト</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../favicon.ico" sizes="180x180">
+    <link rel="icon" type="image/png" href="../favicon.ico" sizes="192x192">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="https://sawazirushi.github.io/sawazirushi/">爽印</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>PRODUCT</h1>
+
+        <div class="category-menu">
+            <button class="active" onclick="filterProducts('all', this)">すべて</button>
+            <button onclick="filterProducts('recommend', this)">おすすめ</button>
+            <button onclick="filterProducts('block', this)">ブロック</button>
+            <button onclick="filterProducts('item', this)">アイテム</button>
+            <button onclick="filterProducts('service', this)">サービス</button>
+            <button onclick="filterProducts('limited', this)">数量限定</button>
+        </div>
+
+        <div class="product-grid">
+            <a href="../product1/index.html" class="product all item">
+                <img src="../image/1.png" alt="商品画像">
+                <h2>ウーパールーパー</h2>
+                <p>クォーツ32個または安山岩、</p>
+                <p>閃緑岩、花崗岩の</p>
+                <p>どれか1スタック</p>
+            </a>
+        
+            <a href="../product2/index.html" class="product all block">
+                <img src="../image/2.png" alt="商品画像">
+                <h2>ダイヤモンドブロック</h2>
+                <p>古代のがれき3個</p>
+            </a>
+        
+            <a href="../product3/index.html" class="product all block">
+                <img src="../image/3.png" alt="商品画像">
+                <h2>古代のがれき</h2>
+                <p>ダイヤモンド3個</p>
+            </a>
+        
+            <a href="../product4/index.html" class="product all item">
+                <img src="../image/4.png" alt="商品画像">
+                <h2>トライデント</h2>
+                <p>耐久MAX/訳あり品(数限)</p>
+                <p>クォーツ8個/クォーツ3個</p>
+            </a>
+        
+            <a href="../product5/index.html" class="product all item">
+                <img src="../image/5.png" alt="商品画像">
+                <h2>ダイヤモンド防具いずれか1つ</h2>
+                <p>ダイヤモンド2個</p>
+            </a>
+
+            <a href="../product6/index.html" class="product all item">
+                <img src="../image/6.png" alt="商品画像">
+                <h2>ダイヤモンドツールいずれか1つ</h2>
+                <p>ダイヤモンド1個</p>
+            </a>
+
+            <a href="../product7/index.html" class="product all item">
+                <img src="../image/7.png" alt="商品画像">
+                <h2>不死のトーテム</h2>
+                <p>ダイヤモンド3個</p>
+            </a>
+
+            <a href="../product8/index.html" class="product all item">
+                <img src="../image/8.png" alt="商品画像">
+                <h2>鍛冶型</h2>
+                <p>種類によってお値段変わります</p>
+            </a>
+
+            <a href="../product9/index.html" class="product all item">
+                <img src="../image/9.png" alt="商品画像">
+                <h2>シェルカーの殻16個</h2>
+                <p>ダイヤモンド1個</p>
+            </a>
+
+            <a href="../product10/index.html" class="product all item">
+                <img src="../image/10.png" alt="商品画像">
+                <h2>花火64個</h2>
+                <p>種類によってお値段変わります</p>
+            </a>
+
+            <a href="../product11/index.html" class="product all item">
+                <img src="../image/11.png" alt="商品画像">
+                <h2>ウィザースケルトンの頭</h2>
+                <p>古代のがれき1個</p>
+            </a>
+
+            <a href="../product12/index.html" class="product all item">
+                <img src="../image/12.png" alt="商品画像">
+                <h2>各ポーション</h2>
+                <p>エメラルド5個</p>
+            </a>
+
+            <a href="../product13/index.html" class="product all service">
+                <img src="../image/13.png" alt="商品画像">
+                <h2>空輸サービス</h2>
+                <p>現世ダイヤモンド1個</p>
+                <p>ネザー/エンドダイヤモンド3個</p>
+            </a>
+
+            <a href="../product14/index.html" class="product all item recommend">
+                <img src="../image/14.png" alt="商品画像">
+                <h2>スニーク速度</h2>
+                <p>ダイヤモンド15個</p>
+            </a>
+
+            <a href="../product15/index.html" class="product all service">
+                <img src="../image/14.png" alt="商品画像">
+                <h2>エンチャントサービス</h2>
+                <p>種類によって値段が変わります</p>
+            </a>
+
+            <a href="../product16/index.html" class="product all service">
+                <img src="../image/15.png" alt="商品画像">
+                <h2>構造物の捜索攻略</h2>
+                <p>値段はクリック</p>
+            </a>
+
+            <a href="../product17/index.html" class="product all service">
+                <img src="../image/16.png" alt="商品画像">
+                <h2>ブロック買取</h2>
+                <p>値段はクリック</p>
+            </a>
+
+            <a href="../product18/index.html" class="product all item">
+                <img src="../image/14.png" alt="商品画像">
+                <h2>ソウルスピード</h2>
+                <p>ダイヤモンド10個</p>
+            </a>
+
+            <a href="../product19/index.html" class="product all item">
+                <img src="../image/17.png" alt="商品画像">
+                <h2>エンダーチェスト</h2>
+                <p>ダイヤモンド2個</p>
+            </a>
+
+            <a href="../product20/index.html" class="product all block">
+                <img src="../image/18.png" alt="商品画像">
+                <h2>金ブロック3個</h2>
+                <p>ダイヤモンド1個</p>
+            </a>
+
+            <a href="../product21/index.html" class="product all block">
+                <img src="../image/19.png" alt="商品画像">
+                <h2>鉄ブロック5個</h2>
+                <p>ダイヤモンド1個</p>
+            </a>
+
+            <a href="../product22/index.html" class="product all block">
+                <img src="../image/20.png" alt="商品画像">
+                <h2>黒曜石16個</h2>
+                <p>ダイヤモンド1個</p>
+            </a>
+
+            <a href="../product23/index.html" class="product all item">
+                <img src="../image/21.png" alt="商品画像">
+                <h2>ネザーウォート</h2>
+                <p>レッドストーン1個</p>
+            </a>
+
+            <a href="../product24/index.html" class="product all item">
+                <img src="../image/22.png" alt="商品画像">
+                <h2>フルエンチャント弓</h2>
+                <p>ダイヤ1個orレッドストーンブロック5個</p>
+            </a>
+
+            <a href="../product25/index.html" class="product all item">
+                <img src="../image/23.png" alt="商品画像">
+                <h2>マグマバケツ2個</h2>
+                <p>ダイヤモンド1個</p>
+            </a>
+
+            <a href="../product26/index.html" class="product all item limited">
+                <img src="../image/24.png" alt="商品画像">
+                <h2>海洋の心</h2>
+                <p>エメラルド20個</p>
+            </a>
+
+            <a href="../product27/index.html" class="product all item limited">
+                <img src="../image/25.png" alt="商品画像">
+                <h2>馬鎧各種</h2>
+                <p>ダイヤ馬鎧ダイヤモンド1個</p>
+                <p>金馬鎧エメラルド15個</p>
+                <p>鉄馬鎧エメラルド10個</p>
+            </a>
+
+            <a href="../product28/index.html" class="product all item">
+                <img src="../image/26.png" alt="商品画像">
+                <h2>ブレイズロッド</h2>
+                <p>ラピスラズリ5個</p>
+            </a>
+
+            <a href="../product29/index.html" class="product all item">
+                <img src="../image/27.png" alt="商品画像">
+                <h2>エンダーパール</h2>
+                <p>レッドストーン2個</p>
+            </a>
+
+            <a href="../product30/index.html" class="product all item">
+                <img src="../image/28.png" alt="商品画像">
+                <h2>エンダーアイ</h2>
+                <p>レッドストーン3個</p>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <p>&copy; 2024 爽印. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
