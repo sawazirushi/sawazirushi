@@ -411,7 +411,6 @@ h2 {
     font-weight: bold;
 }
 
-/* ヘッダーとフッターのスタイル調整 */
 header {
     background-color: #27acd9;
     color: #fff;
@@ -426,7 +425,6 @@ footer {
     text-align: center;
 }
 
-/* 商品リストのスタイル調整 */
 .products {
     display: flex;
     flex-wrap: wrap;
