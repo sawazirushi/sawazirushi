@@ -52,7 +52,7 @@ const slides = document.querySelectorAll('.slide');
 
     const today = new Date();
     const currentYear = today.getFullYear();
-    const currentMonth = 9; // 10月は9（0が1月）
+    const currentMonth = 9;
 
     const openingHoursMap = {
       1: '1日営業時間：16:10 - 24:00',
