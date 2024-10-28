@@ -23,9 +23,24 @@
             <button id="close-modal-button">閉じる</button>
         </div>
     </div-->
-    <header>
-        <div id="main-header">爽印</div>
-    </header>
+    <header class="c-header c-hamburger-menu">
+        <a href="#" class="c-header__logo">爽印</a>
+        <input type="checkbox" name="hamburger" id="hamburger" class="c-hamburger-menu__input"/>
+        <label for="hamburger" class="c-hamburger-menu__bg"></label>
+        <ul class="c-header__list c-hamburger-menu__list">
+          <li class="c-header__list-item">
+            <a href="./shop/index.html" class="c-header__list-link">店頭で受け取り</a>
+          </li>
+          <li class="c-header__list-item">
+            <a href="./delivery/index.html" class="c-header__list-link">陣営内で受け取り</a>
+          </li>
+        </ul>
+        <label for="hamburger" class="c-hamburger-menu__button">
+          <span class="c-hamburger-menu__button-mark"></span>
+          <span class="c-hamburger-menu__button-mark"></span>
+          <span class="c-hamburger-menu__button-mark"></span>
+        </label>
+      </header>
     <main>
         <section class="hero section">
             <div class="he"></div>
