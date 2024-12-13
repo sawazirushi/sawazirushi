@@ -81,6 +81,13 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 767px){
+    .calendar {
+        margin: auto;
+        width: 90%;
+        padding-bottom: 20em;
+      }
+}
 .button-44 {
     display: flex;
     justify-content: center;
