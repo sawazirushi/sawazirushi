@@ -1,0 +1,167 @@
+body{
+    word-break: break-all;
+}
+
+#header{
+	position: relative;
+	z-index:999;
+	background:#222;
+	color: #f2f2f2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:5px 20px;
+}
+
+.ms-section{
+	color:#fff;
+	padding:20px;
+}
+
+.ms-section a{
+	color:#fff;
+}
+
+h1{
+	font-size:1.5rem;
+}
+
+.maintext {
+	font-size: 50px;
+}
+
+.subtext {
+	font-size: 20px;
+}
+
+h2{
+	font-size:1.3rem;
+	margin:0 0 20px 0;
+	text-align: center;
+}
+
+p{
+	margin:0 0 20px 0;
+	text-align: center;
+}
+
+#multiscroll-nav span{
+	background:transparent!important;
+	border-color:#fff!important;
+}
+
+#multiscroll-nav li .active span{
+	background:#fff!important;
+}
+
+#menu li {
+	display:inline-block;
+	margin: 10px;
+}
+
+#menu li a{
+	text-decoration:none;
+	color: #fff;
+	padding: 5px 10px;
+	display:block;
+	border-radius: 10px;
+}
+
+#menu li.active a{
+	color: #666;
+}
+
+#right1{
+	background:url("../image/main.jpg") no-repeat center;
+	background-size:cover;
+}
+
+#right2{
+	background:url("../image/31.png") no-repeat center;
+	background-size:cover;
+}
+
+#right3{
+	background:url("../image/7.png") no-repeat center;
+	background-size:cover;
+}
+
+#right4{
+	background:url("../image/news.png") no-repeat center;
+	background-size:90%;
+}
+
+#right5{
+	background:url("../image/12month.png") no-repeat center;
+	background-size:cover;
+}
+
+#right6{
+	background:url("../image/sawazirushiicon.png") no-repeat center;
+	background-size:cover;
+}
+
+@media screen and (max-width:768px){
+	
+#header{
+	justify-content: center;
+}
+
+.ms-section{
+	padding:0;
+}
+
+.ms-tableCell{
+	vertical-align:top;
+}
+
+#menu,
+.ms-right{
+	display: none;
+}
+
+.ms-left{
+	width:100%!important;
+}
+
+.sp-top{
+	height:50%;
+	margin:0 0 20px 0;
+}
+	
+#left1 .sp-top{
+	background:url("../image/main.jpg") no-repeat center;
+	background-size:cover;
+}
+
+#left2 .sp-top{
+	background:url("../image/31.png") no-repeat center;
+	background-size:cover;
+}
+
+#left3 .sp-top{
+	background:url("../image/7.png") no-repeat center;
+	background-size:cover;
+}
+	
+#left4 .sp-top{
+	background:url("../image/news.png") no-repeat center;
+	background-size:contain;
+}
+
+#left5 .sp-top{
+	background:url("../image/12month.png") no-repeat center;
+	background-size:cover;
+}
+
+#left6 .sp-top{
+	background:url("../image/sawazirushiicon.png") no-repeat center;
+	background-size:cover;
+}
+
+.sp-bottom{
+	padding:20px;
+}
+	
+}
+

@@ -1,0 +1,102 @@
+.area1 {
+    text-align: center;
+}
+
+.last p {
+    text-align: left;
+}
+
+.last h3 {
+    text-align: center;
+}
+.last small {
+    display: block;
+    text-align: center;
+}
+
+.news-list{
+    list-style: none outside;
+    margin: 0;
+    padding: 0;
+}
+  
+.news-list .item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid #CCC;
+    padding: 20px 20px;
+}
+.news-list .item:first-child {
+    border-top: 1px solid #CCC;
+  
+}
+.news-list .item .date{
+    margin: 0;
+    min-width: 120px;
+    font-size: 16px;
+    color: #999;
+    padding: 0 20px 0 0;
+}
+.news-list .item .title{
+    margin: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px){
+  .news-list .item a{
+    flex-wrap: wrap;
+}
+  .news-list .item .date{
+    min-width: 100px;
+    font-size: 15px;
+}
+  .news-list .item .title{
+    margin-top: 10px;
+}
+}
+
+.calendar {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendar th, .calendar td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.calendar td:hover {
+    background-color: #f0f0f052;
+    cursor: pointer;
+}
+
+#opening-hours {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.button-44 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: 0 auto;
+    padding: .9em 2em;
+    border: 1px solid #333333;
+    border-radius: 25px;
+    background-image: repeating-linear-gradient(-45deg, #eee, #eee 1px, #ffffff 1px, #ffffff 4px);
+    color: #333333;
+    font-weight: 600;
+    font-size: 1em;
+    transition: box-shadow .3s;
+}
+
+.button-44:hover {
+    box-shadow: 0 7px 30px -5px rgb(0 0 0 / 20%);
+}

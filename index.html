@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="爽印" />
+    <meta property="og:description" content="爽印公式ホームページ" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/sawazirushi/sawazirushi/refs/heads/main/image/sawazirushiicon.png"
+    />
+    <meta
+      property="og:url"
+      content="https://sawazirushi.github.io/sawazirushi1/"
+    />
+    <title>爽印</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="favicon.ico" sizes="180x180" />
+    <link rel="icon" type="image/png" href="favicon.ico" sizes="192x192" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/multiscroll.js/0.2.2/jquery.multiscroll.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+  </head>
+
+  <body>
+    <header id="header">
+      <h1>爽印</h1>
+      <nav>
+        <ul id="menu">
+          <li data-menuanchor="area1" class="active">
+            <a href="#area1">main</a>
+          </li>
+          <li data-menuanchor="area2"><a href="#area2">新商品</a></li>
+          <li data-menuanchor="area3"><a href="#area3">オススメ商品</a></li>
+          <li data-menuanchor="area4"><a href="#area4">お知らせ</a></li>
+          <li data-menuanchor="area5"><a href="#area5">営業時間</a></li>
+          <li data-menuanchor="area6"><a href="#area6">footer</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="wrapper">
+      <div class="ms-left">
+        <section class="ms-section" id="left1">
+          <div class="sp-top"></div>
+          <div class="sp-bottom">
+            <h2 class="maintext">爽印</h2>
+            <p class="subtext">すべてのお客様に最高のNIYAFORNIAライフを</p>
+          </div>
+        </section>
+
+        <section class="ms-section" id="left2">
+          <div class="sp-top"></div>
+          <div class="sp-bottom">
+            <h2>新商品</h2>
+            <p>
+              こちらの商品が入荷しました
+            </p>
+			<div>
+				<button class="button-44">商品一覧はこちら</button>
+			</div>
+          </div>
+        </section>
+
+        <section class="ms-section" id="left3">
+          <div class="sp-top"></div>
+          <div class="sp-bottom">
+            <h2>オススメ商品</h2>
+            <p>
+              オススメの商品です
+            </p>
+			<div>
+				<button class="button-44">商品一覧はこちら</button>
+			</div>
+          </div>
+        </section>
+
+        <section class="ms-section" id="left4">
+          <div class="sp-top"></div>
+          <div class="sp-bottom">
+            <div>
+              <h2 class="maintitle">お知らせ</h2>
+              <ul class="news-list">
+                <li class="item">
+                  <p class="date">2024/9/22</p>
+                  <p class="title">店名を変更しました</p>
+                </li>
+                <li class="item">
+                  <p class="date">2024/9/22</p>
+                  <p class="title">ホームページをリニューアルしました</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="ms-section" id="left5">
+          <div class="sp-top"></div>
+          <div class="sp-bottom">
+            <h2 class="maintitle">12月の営業時間</h2>
+        <div id="opening-hours"></div>
+        <table class="calendar">
+            <thead>
+                <tr>
+                    <th>日</th>
+                    <th>月</th>
+                    <th>火</th>
+                    <th>水</th>
+                    <th>木</th>
+                    <th>金</th>
+                    <th>土</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body">
+            </tbody>
+        </table>
+          </div>
+        </section>
+
+        <section class="ms-section" id="left6">
+          <div class="sp-top"></div>
+          <div class="sp-bottom">
+            <div class="last">
+				<h3><a href="traderule/index.html"target="_blank">取引ルール</a>はこちらから</h3>
+				<p>商品購入希望を書いたのに5分以上返信がない場合(営業時間中)はお手数ですが@sky__0606までメンションお願いします</p>
+				<p>※今後料金が変動する可能性もございますご了承ください</p>
+				<p>※在庫不足でお客様の指定した時間に行けない場合がございます、その場合はお知らせいたします</p>
+				<p>※個数を書いていないものは基本的に書いてある値段に対して1個の販売になります</p>
+				<div class="site-footer"></div>
+				<small>&copy; sawazirushi.All Rights Reserved</small>
+			</div>
+          </div>
+        </section>
+      </div>
+
+      <div class="ms-right">
+        <div class="ms-section" id="right1"></div>
+        <div class="ms-section" id="right2"></div>
+        <div class="ms-section" id="right3"></div>
+        <div class="ms-section" id="right4"></div>
+        <div class="ms-section" id="right5"></div>
+        <div class="ms-section" id="right6"></div>
+      </div>
+
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/multiscroll.js/0.2.2/jquery.multiscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
