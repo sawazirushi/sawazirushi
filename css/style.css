@@ -162,6 +162,8 @@ p{
 .sp-bottom{
 	padding:20px;
 }
-	
-}
 
+.last {
+	font-size: 85%;
+}
+}
