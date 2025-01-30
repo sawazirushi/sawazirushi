@@ -42,8 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
         27: '',
         28: '',
         29: '',
-        30: '30日営業時間：12:00 - 24:00',
-        31: '31日営業時間：12:00 - 24:00'
+        30: '',
+        31: ''
     };
     
 
